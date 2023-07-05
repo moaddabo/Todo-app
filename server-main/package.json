@@ -1,0 +1,23 @@
+{
+  "name": "todo web",
+  "version": "1.0.0",
+  "description": "todo Ssystem",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Omid",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.37.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
